@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Landing Page Personal</title>
+    <link rel="stylesheet" href="styles.css">
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="contenedor">
+            <nav class="navbar">
+                <a href="#" class="logo">Mi<span>Portfolio</span></a>
+                <ul class="navlinks">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre Mí</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home" class="home">
+        <div class="contenedor">
+            <div class="home-contenido">
+                <h1>Hola, soy <span>Christian</span></h1>
+                <p>Estudiante de Desarrollo de aplicaciones Web.</p>
+                <div class="home-btns">
+                    <a href="#portfolio">Ver Mi Trabajo</a>
+                    <a href="#contacto">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor">
+            <h2>Sobre Mí</h2>
+            <h3>Futuro desarrollador de aplicaciones web</h3>
+            <div class="sobremi-contenido">
+                <div class="sobremi-text">
+                    <p>Actualmente estoy enfocado en dominar las bases del
+                        desarrollo web: HTML5, CSS3 y JavaScript. Además, estoy adquiriendo conocimientos en PHP
+                        para el desarrollo backend y la gestión de bases de datos.</p>
+                    <p>Busco activamente mi primera oportunidad laboral para aplicar mis conocimientos, crecer
+                        profesionalmente y formar parte de un equipo innovador.</p>
+                    <p>Mi pasión es aprender.</p>    
+                </div>
+                <div class="sobremi-imagen">
+                    <img src="img/sobremi-imagen.jfif" alt="Sobre mí">
+                </div>
+            </div>
+            <a href="#contacto" class="btn">Hablemos</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenedor">
+            <h2>Mi Portfolio</h2>
+            <div class="portfolio-objeto">
+                <img src="img/sobremi-imagen.jfif" alt="Proyecto 1">
+                <div class="portfolio-explicacion">
+                    <h3>Gestor de inventario escolar</h3>
+                    <p>Aplicación desarrollada con PHP, HTML y CSS</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto">
+        <div class="contenedor">
+            <h2>Contáctame</h2>
+            <div class="contacto-contenido">
+                <div class="contacto-info">
+                    <h3>Email</h3>
+                    <p>ejemplo@ejemplo.com</p>
+                </div>
+                <form class="formulario">
+                    <div>
+                        <input type="text" placeholder="Tu Nombre" required>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Tu Email" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Asunto" required>
+                    </div>
+                    <div>
+                        <textarea class="form-control" placeholder="Tu Mensaje" required></textarea>
+                    </div>
+                    <div class="form-boton">
+                        <button type="submit">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="copyright">&copy; 2025 Mi Portfolio. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
